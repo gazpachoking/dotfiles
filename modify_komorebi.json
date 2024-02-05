@@ -1,3 +1,4 @@
+{{- /* chezmoi:modify-template */ -}}
 {
   "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/master/schema.json",
   "app_specific_configuration_path": "$Env:USERPROFILE/applications.yaml",
@@ -12,17 +13,7 @@
     "stack": { "r": 256, "g": 165, "b": 66 },
     "monocle": { "r": 255, "g": 51, "b": 153 }
   },
-  "monitors": [
-    {
-      "workspaces": [
-        { "name": "I", "layout": "UltrawideVerticalStack" },
-        { "name": "II", "layout": "VerticalStack" },
-        { "name": "III", "layout": "HorizontalStack" },
-        { "name": "IV", "layout": "BSP" },
-        { "name": "V", "layout": "Rows" }
-      ]
-    }
-  ],
+  "monitors": {{ get (fromJson .chezmoi.stdin) "monitors" | toPrettyJson }},
   "float_rules": [
 	{"kind": "exe", "id": "ShareX.exe"},
 	{"kind": "exe", "id": "TeraCopy.exe"}
