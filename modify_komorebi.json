@@ -4,7 +4,7 @@
   "app_specific_configuration_path": "$Env:USERPROFILE/applications.yaml",
   "window_hiding_behaviour": "Cloak",
   "cross_monitor_move_behaviour": "Insert",
-  "alt_focus_hack": true,
+  "alt_focus_hack": false,
   "default_workspace_padding": 8,
   "default_container_padding": 8,
   "active_window_border": true,
