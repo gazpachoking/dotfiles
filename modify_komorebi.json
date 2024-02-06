@@ -13,7 +13,7 @@
     "stack": { "r": 256, "g": 165, "b": 66 },
     "monocle": { "r": 255, "g": 51, "b": 153 }
   },
-  "monitors": {{ get (fromJson .chezmoi.stdin) "monitors" | toPrettyJson }},
+  "monitors": {{ get (fromJson .chezmoi.stdin) "monitors" | toPrettyJson -}},
   "float_rules": [
 	{"kind": "exe", "id": "ShareX.exe"},
 	{"kind": "exe", "id": "TeraCopy.exe"}
