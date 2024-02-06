@@ -15,7 +15,7 @@
   },
   "monitors": {{ get (fromJson .chezmoi.stdin) "monitors" | toPrettyJson -}},
   "float_rules": [
-	{"kind": "exe", "id": "ShareX.exe"},
-	{"kind": "exe", "id": "TeraCopy.exe"}
+    {"kind": "exe", "id": "ShareX.exe"},
+    {"kind": "exe", "id": "TeraCopy.exe"}
   ]
 }
