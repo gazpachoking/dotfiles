@@ -5,8 +5,8 @@
   "window_hiding_behaviour": "Cloak",
   "cross_monitor_move_behaviour": "Insert",
   "alt_focus_hack": false,
-  "default_workspace_padding": 8,
-  "default_container_padding": 8,
+  "default_workspace_padding": 5,
+  "default_container_padding": 5,
   "active_window_border": true,
   "active_window_border_colours": {
     "single": { "r": 66, "g": 165, "b": 245 },
