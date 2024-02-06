@@ -1,6 +1,6 @@
 [user]
 	name = Chase Sterling
-	email = chase.sterling@gmail.com
+	email = {{ .email | quote }}
 [filter "lfs"]
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
