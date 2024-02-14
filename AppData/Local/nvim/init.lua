@@ -654,6 +654,12 @@ mason_lspconfig.setup_handlers {
   end,
 }
 
+local pylsp = require("mason-registry").get_package("python-lsp-server")
+
+pylsp:on("install:success", vim.schedule_wrap(function ()
+  vim.api.nvim_command('PylspInstall python-lsp-ruff')
+end))
+
 -- [[ Configure nvim-cmp ]]
 -- See `:help cmp`
 local cmp = require 'cmp'
