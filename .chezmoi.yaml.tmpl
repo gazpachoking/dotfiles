@@ -2,6 +2,10 @@
 edit:
   command: nvim
 
+merge:
+  command: nvim
+  args: ["-d", "{{ "{{" }} .Destination {{ "}}" }}", "{{ "{{" }} .Target {{ "}}" }}"]
+
 git:
   autoCommit: true
   # autoPush: true
