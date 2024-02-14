@@ -290,6 +290,9 @@ require('lazy').setup({
 -- See `:help vim.o`
 -- NOTE: You can change these options as you wish!
 
+-- Scoll buffer before reaching end
+vim.o.scrolloff = 8
+
 -- Set highlight on search
 vim.o.hlsearch = false
 
