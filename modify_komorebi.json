@@ -13,8 +13,8 @@
     "stack": { "r": 256, "g": 165, "b": 66 },
     "monocle": { "r": 255, "g": 51, "b": 153 }
   },
-  {{ range list "monitors" -}}
-  "{{ . }}": {{ get (fromJson .chezmoi.stdin) . | toPrettyJson | indent 2 | trim }},
+  {{ range $field := list "monitors" -}}
+  "{{ $field }}": {{ get (fromJson .chezmoi.stdin) $field | toPrettyJson | indent 2 | trim }},
   {{ end }}
   "float_rules": [
     {"kind": "exe", "id": "ShareX.exe"},
