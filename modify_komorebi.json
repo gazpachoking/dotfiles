@@ -14,7 +14,7 @@
     "monocle": { "r": 255, "g": 51, "b": 153 }
   },
   {{ range list "monitors" -}}
-  "{{ "monitors" }}": {{ get (fromJson .chezmoi.stdin) "monitors" | toPrettyJson | indent 2 | trim }},
+  "{{ "monitors" }}": {{ get (fromJson $.chezmoi.stdin) "monitors" | toPrettyJson | indent 2 | trim }},
   {{ end }}
   "float_rules": [
     {"kind": "exe", "id": "ShareX.exe"},
