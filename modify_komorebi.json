@@ -16,8 +16,8 @@
   {{ range list "monitors" "display_index_preferences" "monitor_index_preferences" -}}
   {{ if hasKey (fromJson $.chezmoi.stdin) . -}}
   "{{ . }}": {{ get (fromJson $.chezmoi.stdin) . | toPrettyJson | indent 2 | trim }},
-  {{ end }}
-  {{ end }}
+  {{ end -}}
+  {{ end -}}
   "float_rules": [
     {"kind": "exe", "id": "ShareX.exe"},
     {"kind": "exe", "id": "TeraCopy.exe"}
