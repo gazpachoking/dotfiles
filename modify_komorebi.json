@@ -19,6 +19,8 @@
   {{ end -}}
   "float_rules": [
     {"kind": "exe", "id": "ShareX.exe"},
-    {"kind": "exe", "id": "TeraCopy.exe"}
+    {"kind": "exe", "id": "TeraCopy.exe"},
+    {"kind": "title", "id": "Remove Torrent", "matching_strategy": "Equals"},
+    {"kind": "title", "id": "Connection Manager", "matching_strategy": "Equals"}
   ]
 }
