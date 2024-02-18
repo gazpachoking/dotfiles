@@ -1,3 +1,6 @@
 {{- if ne .chezmoi.os "windows" }}
 AppData
 {{ end }}
+{{- if ne .chezmoi.os "linux" }}
+.config/nvim
+{{ end }}
