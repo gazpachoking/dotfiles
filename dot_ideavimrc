@@ -1,0 +1,75 @@
+set clipboard+=unnamed
+set scrolloff=10
+set showmode
+set showcmd
+set visualbell
+
+set ignorecase
+set smartcase
+set incsearch
+set hlsearch
+
+set showmodewidget
+
+noremap <space> <nop>
+let mapleader = " "
+" set sneak
+Plug 'tpope/vim-surround'
+Plug 'preservim/nerdtree'
+Plug 'machakann/vim-highlightedyank'
+Plug 'easymotion/vim-easymotion'
+set notimeout
+set which-key
+Plug 'michaeljsmith/vim-indent-object'
+Plug 'dbakker/vim-paragraph-motion'
+Plug 'tpope/vim-commentary'
+set quickscope
+
+" Paste in insert mode
+inoremap <c-v> <c-r>*
+
+" Jump between methods
+nmap [[ <acton>(MethodUp)
+nmap ]] <action>(MethodDown)
+
+" Keys from vim-gitgutter
+nmap ]c <Action>(VcsShowNextChangeMarker)
+nmap [c <Action>(VcsShowPrevChangeMarker)
+
+" Easy visual indentation
+vnoremap < <gv
+vnoremap > >gv
+
+" Comment lines
+" map gcc <action>(CommentByLineComment)
+
+" Jump around with easymotion
+map <leader>j <Plug>(easymotion-s)
+
+" Open NERDTree (use q to exit)
+map <leader>x :NERDTreeToggle<CR>
+
+" Actions
+map <leader>ca <action>(ShowIntentionActions)
+map <leader>se <action>(SearchEverywhere)
+
+" Refactoring
+map <leader>rn <Action>(RenameElement)
+map <leader>rm <Action>(ExtractMethod)
+map <leader>rv <Action>(IntroduceVariable)
+map <leader>rf <Action>(IntroduceField)
+map <leader>rs <Action>(ChangeSignature)
+map <leader>rr <Action>(Refactorings.QuickListPopupAction)
+
+" Go to code
+" nmap gd <Action>(GotoDeclaration)
+nmap <leader>D <Action>(GotoTypeDeclaration)
+nmap gI <Action>(GotoImplementation)
+nmap gr <Action>(ShowUsages)
+nmap <leader>gt <Action>(GotoTest)
+nmap gb <Action>(Back)
+nmap gf <Action>(Forward)
+
+" Git windows
+map <leader>gc <Action>(CheckinProject)
+map <leader>gs <Action>(ActivateVersionControlToolWindow)
