@@ -23,6 +23,7 @@
     {"kind": "title", "id": "Remove Torrent", "matching_strategy": "Equals"},
     {"kind": "title", "id": "Connection Manager", "matching_strategy": "Equals"},
     {"kind": "exe", "id": "flux.exe"},
-    {"kind": "exe", "id": "RoyalTS_PuTTY.exe"}
+    {"kind": "exe", "id": "RoyalTS_PuTTY.exe"},
+    {"kind": "exe", "id": "RoyalTS_PuTTY64.exe"}
   ]
 }
