@@ -31,6 +31,8 @@ inoremap <c-v> <c-r>*
 " Jump between methods
 nmap [[ <acton>(MethodUp)
 nmap ]] <action>(MethodDown)
+nmap [e <action>(GotoPreviousError)
+nmap ]e <action>(GotoNextError)
 
 " Keys from vim-gitgutter
 nmap ]c <Action>(VcsShowNextChangeMarker)
