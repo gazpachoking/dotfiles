@@ -59,7 +59,7 @@
 
 
 ; Manipulate windows
-!f::ToggleMaximize()
+!f::ToggleFloat()
 !+f::ToggleMonocle()
 !+m::ToggleMaximize()
 !q::Close()
