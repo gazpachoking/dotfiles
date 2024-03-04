@@ -29,7 +29,7 @@ set quickscope
 inoremap <c-v> <c-r>*
 
 " Jump between methods
-nmap [[ <acton>(MethodUp)
+nmap [[ <action>(MethodUp)
 nmap ]] <action>(MethodDown)
 nmap [e <action>(GotoPreviousError)
 nmap ]e <action>(GotoNextError)
