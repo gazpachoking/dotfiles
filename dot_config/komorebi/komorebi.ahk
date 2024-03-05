@@ -61,6 +61,7 @@
 ; Manipulate windows
 !f::ToggleFloat()
 !+f::ToggleMonocle()
+!+m::ToggleMaximize()
 !q::Close()
 
 ; Window manager options
