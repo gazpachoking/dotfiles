@@ -25,8 +25,12 @@ Plug 'dbakker/vim-paragraph-motion'
 Plug 'tpope/vim-commentary'
 set quickscope
 
-" Paste in insert mode
+" Normal paste
 inoremap <c-v> <c-r>*
+nnoremap <c-v> p
+
+" Modes
+nmap <leader>vd <action>(ToggleDistractionFreeMode)
 
 " Jump between methods
 nmap [[ <action>(MethodUp)
