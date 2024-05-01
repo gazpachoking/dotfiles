@@ -26,5 +26,15 @@
     {"kind": "exe", "id": "flux.exe"},
     {"kind": "exe", "id": "RoyalTS_PuTTY.exe"},
     {"kind": "exe", "id": "RoyalTS_PuTTY64.exe"}
-  ]
+  ],
+  "stackbar": {
+    "height": 40,
+    "mode": "OnStack",
+    "tabs": {
+      "width": 300,
+      "focused_text": "#00a542",
+      "unfocused_text": "#b3b3b3",
+      "background": "#141414"
+    }
+  }
 }
