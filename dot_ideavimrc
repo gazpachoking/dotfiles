@@ -55,6 +55,10 @@ map <leader>j <Plug>(easymotion-s)
 " Open NERDTree (use q to exit)
 map <leader>x :NERDTreeToggle<CR>
 
+# Open terminal window
+nmap <c-t> <Action>(ActivateTerminalToolWindow)
+imap <c-t> <Action>(ActivateTerminalToolWindow)
+
 " Actions
 map <leader>ca <action>(ShowIntentionActions)
 map <leader>se <action>(SearchEverywhere)
