@@ -25,7 +25,8 @@
     {"kind": "title", "id": "Connection Manager", "matching_strategy": "Equals"},
     {"kind": "exe", "id": "flux.exe"},
     {"kind": "exe", "id": "RoyalTS_PuTTY.exe"},
-    {"kind": "exe", "id": "RoyalTS_PuTTY64.exe"}
+    {"kind": "exe", "id": "RoyalTS_PuTTY64.exe"},
+    {"kind": "exe", "id": "PhoneExperienceHost.exe"}
   ],
   "stackbar": {
     "height": 40,
