@@ -6,9 +6,9 @@
   "cross_monitor_move_behaviour": "Insert",
   "default_workspace_padding": 3,
   "default_container_padding": 3,
-  "active_window_border": true,
-  "active_window_border_width": 7,
-  "active_window_border_colours": {
+  "border": true,
+  "border_width": 7,
+  "border_colours": {
     "single": { "r": 66, "g": 165, "b": 245 },
     "stack": { "r": 256, "g": 165, "b": 66 },
     "monocle": { "r": 255, "g": 51, "b": 153 }
