@@ -1,83 +1,97 @@
+#Requires AutoHotkey v2.0.2
 #SingleInstance Force
 
-; Load library
-#Include komorebic.lib.ahk
+Komorebic(cmd) {
+    RunWait(format("komorebic.exe {}", cmd), , "Hide")
+}
 
 ; Focus windows
-!h::Focus("left")
-!t::Focus("down")
-!n::Focus("up")
-!s::Focus("right")
-!+[::CycleFocus("previous")
-!+]::CycleFocus("next")
+!h::Komorebic("focus left")
+!t::Komorebic("focus down")
+!n::Komorebic("focus up")
+!s::Komorebic("focus right")
+
+!+[::Komorebic("cycle-focus previous")
+!+]::Komorebic("cycle-focus next")
 
 ; Move windows
-!+h::Move("left")
-!+t::Move("down")
-!+n::Move("up")
-!+s::Move("right")
-!+Enter::Promote()
+!+h::Komorebic("move left")
+!+t::Komorebic("move down")
+!+n::Komorebic("move up")
+!+s::Komorebic("move right")
+!+Enter::Komorebic("promote")
 
 ; Stack windows
-!Left::Stack("left")
-!Right::Stack("right")
-!Up::Stack("up")
-!Down::Stack("down")
-!;::Unstack()
-![::CycleStack("previous")
-!]::CycleStack("next")
+!Left::Komorebic("stack left")
+!Down::Komorebic("stack down")
+!Up::Komorebic("stack up")
+!Right::Komorebic("stack right")
+!;::Komorebic("unstack")
+![::Komorebic("cycle-stack previous")
+!]::Komorebic("cycle-stack next")
 
 ; Resize
-!/::ResizeAxis("horizontal", "increase")
-!-::ResizeAxis("horizontal", "decrease")
-!+/::ResizeAxis("vertical", "increase")
-!+-::ResizeAxis("vertical", "decrease")
+!/::Komorebic("resize-axis horizontal increase")
+!-::Komorebic("resize-axis horizontal decrease")
+!+/::Komorebic("resize-axis vertical increase")
+!+-::Komorebic("resize-axis vertical decrease")
 !WheelDown::
 {
     MouseGetPos(, , &mouse_hwnd)
     WinActivate(Integer(mouse_hwnd))
-    ResizeAxis("horizontal", "decrease")
+    Komorebic("resize-axis horizontal decrease")
 }
 !WheelUp::
 {
     MouseGetPos(, , &mouse_hwnd)
     WinActivate(Integer(mouse_hwnd))
-    ResizeAxis("horizontal", "increase")
+    Komorebic("resize-axis horizontal increase")
 }
 !^WheelDown::
 {
     MouseGetPos(, , &mouse_hwnd)
     WinActivate(Integer(mouse_hwnd))
-    ResizeAxis("vertical", "decrease")
+    Komorebic("resize-axis vertical decrease")
 }
 !^WheelUp::
 {
     MouseGetPos(, , &mouse_hwnd)
     WinActivate(Integer(mouse_hwnd))
-    ResizeAxis("vertical", "increase")
+    Komorebic("resize-axis vertical increase")    
 }
 
-
 ; Manipulate windows
-!f::ToggleFloat()
-!+f::ToggleMonocle()
-!+m::ToggleMaximize()
-!q::Close()
+!t::Komorebic("toggle-float")
+!f::Komorebic("toggle-monocle")
+!q::Komorebic("close")
+!+m::Komorebic("toggle-maximize")
+!m::Komorebic("minimize")
 
 ; Window manager options
-!+r::Retile()
-!p::TogglePause()
+!+r::Komorebic("retile")
+!p::Komorebic("toggle-pause")
 
 ; Layouts
-!x::FlipLayout("horizontal")
-!y::FlipLayout("vertical")
+!x::Komorebic("flip-layout horizontal")
+!y::Komorebic("flip-layout vertical")
 
 ; Workspaces
-!1::FocusWorkspace(0)
-!2::FocusWorkspace(1)
-!3::FocusWorkspace(2)
+!1::Komorebic("focus-workspace 0")
+!2::Komorebic("focus-workspace 1")
+!3::Komorebic("focus-workspace 2")
+!4::Komorebic("focus-workspace 3")
+!5::Komorebic("focus-workspace 4")
+!6::Komorebic("focus-workspace 5")
+!7::Komorebic("focus-workspace 6")
+!8::Komorebic("focus-workspace 7")
 
 ; Move windows across workspaces
-!+1::MoveToWorkspace(0)
-!+2::MoveToWorkspace(1)
-!+3::MoveToWorkspace(2)
+!+1::Komorebic("move-to-workspace 0")
+!+2::Komorebic("move-to-workspace 1")
+!+3::Komorebic("move-to-workspace 2")
+!+4::Komorebic("move-to-workspace 3")
+!+5::Komorebic("move-to-workspace 4")
+!+6::Komorebic("move-to-workspace 5")
+!+7::Komorebic("move-to-workspace 6")
+!+8::Komorebic("move-to-workspace 7")
+
