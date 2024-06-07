@@ -61,8 +61,8 @@ Komorebic(cmd) {
 }
 
 ; Manipulate windows
-!t::Komorebic("toggle-float")
-!f::Komorebic("toggle-monocle")
+!f::Komorebic("toggle-float")
+!+f::Komorebic("toggle-monocle")
 !q::Komorebic("close")
 !+m::Komorebic("toggle-maximize")
 !m::Komorebic("minimize")
