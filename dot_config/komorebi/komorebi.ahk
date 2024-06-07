@@ -16,8 +16,8 @@ Komorebic(cmd) {
 
 ; Move windows
 !+h::Komorebic("move left")
-!+t::Komorebic("move down")
-!+n::Komorebic("move up")
+!+t::Komorebic("cycle-move next")
+!+n::Komorebic("cycle-move previous")
 !+s::Komorebic("move right")
 !+Enter::Komorebic("promote")
 
