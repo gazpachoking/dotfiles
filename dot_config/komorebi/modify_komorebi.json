@@ -26,7 +26,8 @@
     {"kind": "exe", "id": "flux.exe"},
     {"kind": "exe", "id": "RoyalTS_PuTTY.exe"},
     {"kind": "exe", "id": "RoyalTS_PuTTY64.exe"},
-    {"kind": "exe", "id": "PhoneExperienceHost.exe"}
+    {"kind": "exe", "id": "PhoneExperienceHost.exe"},
+    {"kind": "class", "id": "VISIOS"}
   ],
   "stackbar": {
     "height": 40,
