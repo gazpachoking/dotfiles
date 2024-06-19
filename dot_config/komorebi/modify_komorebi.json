@@ -27,7 +27,11 @@
     {"kind": "exe", "id": "RoyalTS_PuTTY.exe"},
     {"kind": "exe", "id": "RoyalTS_PuTTY64.exe"},
     {"kind": "exe", "id": "PhoneExperienceHost.exe"},
-    {"kind": "class", "id": "VISIOS"}
+    {"kind": "class", "id": "VISIOS"},
+    [
+      {"kind": "exe", "id": "deluge.exe"},
+      {"kind": "title", "id": "Deluge", "matching_strategy": "DoesNotEqual"}
+    ]
   ],
   "stackbar": {
     "height": 40,
