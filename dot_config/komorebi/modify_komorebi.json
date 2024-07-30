@@ -34,7 +34,8 @@
       {"kind": "title", "id": "Deluge", "matching_strategy": "DoesNotEqual"}
     ],
     {"kind": "exe", "id": "PowerToys.AdvancedPaste.exe"},
-    {"kind": "class", "id": "MozillaDialogClass"}
+    {"kind": "class", "id": "MozillaDialogClass"},
+    {"kind": "class", "id": "TLoginDialog"}  # WinSCP
   ],
   "stackbar": {
     "height": 40,
