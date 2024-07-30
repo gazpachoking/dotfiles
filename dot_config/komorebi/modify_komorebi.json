@@ -33,7 +33,8 @@
       {"kind": "exe", "id": "deluge.exe"},
       {"kind": "title", "id": "Deluge", "matching_strategy": "DoesNotEqual"}
     ],
-    {"kind": "exe", "id": "PowerToys.AdvancedPaste.exe"}
+    {"kind": "exe", "id": "PowerToys.AdvancedPaste.exe"},
+    {"kind": "class", "id": "MozillaDialogClass"}
   ],
   "stackbar": {
     "height": 40,
