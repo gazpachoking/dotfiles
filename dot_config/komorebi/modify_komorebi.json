@@ -35,7 +35,7 @@
     ],
     {"kind": "exe", "id": "PowerToys.AdvancedPaste.exe"},
     {"kind": "class", "id": "MozillaDialogClass"},
-    {"kind": "class", "id": "TLoginDialog"}  # WinSCP
+    {"kind": "class", "id": "TLoginDialog"}
   ],
   "stackbar": {
     "height": 40,
