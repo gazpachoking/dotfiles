@@ -35,7 +35,8 @@
     ],
     {"kind": "exe", "id": "PowerToys.AdvancedPaste.exe"},
     {"kind": "class", "id": "MozillaDialogClass"},
-    {"kind": "class", "id": "TLoginDialog"}
+    {"kind": "class", "id": "TLoginDialog"},
+    {"kind": "title", "id": "minimized | Microsoft Teams", "matching_strategy": "EndsWith"} 
   ],
   "stackbar": {
     "height": 40,
