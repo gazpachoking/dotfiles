@@ -36,7 +36,11 @@
     {"kind": "exe", "id": "PowerToys.AdvancedPaste.exe"},
     {"kind": "class", "id": "MozillaDialogClass"},
     {"kind": "class", "id": "TLoginDialog"},
-    {"kind": "title", "id": "minimized | Microsoft Teams", "matching_strategy": "EndsWith"} 
+    {"kind": "title", "id": "minimized | Microsoft Teams", "matching_strategy": "EndsWith"},
+    [
+      {"kind": "exe", "id": "RemoteDesktopManager.exe"},
+      {"kind": "title", "id": "[Dashboard]", "matching_strategy": "NotEndsWith"}
+    ]
   ],
   "stackbar": {
     "height": 40,
