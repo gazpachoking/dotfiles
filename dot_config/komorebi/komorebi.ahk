@@ -86,7 +86,7 @@ Komorebic(cmd) {
 !8::Komorebic("focus-workspace 7")
 
 ; Move windows across monitors
-!+1::Komorebic("move-to-monitor 0")
-!+2::Komorebic("move-to-monitor 1")
-!+3::Komorebic("move-to-monitor 2")
+!+1::Komorebic("send-to-monitor 0")
+!+2::Komorebic("send-to-monitor 1")
+!+3::Komorebic("send-to-monitor 2")
 
