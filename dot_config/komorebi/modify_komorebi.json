@@ -42,6 +42,12 @@
       {"kind": "title", "id": "Remote Desktop Manager", "matching_strategy": "DoesNotStartWith"}
     ]
   ],
+  "object_name_change_applications": [
+    [
+      {"kind": "exe", "id": "RemoteDesktopManager"},
+      {"kind": "title", "id": "Remote Desktop Manager", "matching_strategy": "StartsWith"}
+    ]
+  ],
   "stackbar": {
     "height": 40,
     "mode": "OnStack",
