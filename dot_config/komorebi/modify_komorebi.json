@@ -39,7 +39,7 @@
     {"kind": "title", "id": "minimized | Microsoft Teams", "matching_strategy": "EndsWith"},
     [
       {"kind": "exe", "id": "RemoteDesktopManager.exe"},
-      {"kind": "title", "id": "]", "matching_strategy": "DoesNotEndWith"}
+      {"kind": "title", "id": "aaa]", "matching_strategy": "EndsWith"}
     ]
   ],
   "stackbar": {
