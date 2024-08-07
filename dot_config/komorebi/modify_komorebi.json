@@ -39,7 +39,7 @@
     {"kind": "title", "id": "minimized | Microsoft Teams", "matching_strategy": "EndsWith"},
     [
       {"kind": "exe", "id": "RemoteDesktopManager.exe"},
-      {"kind": "title", "id": "aaa]", "matching_strategy": "EndsWith"}
+      {"kind": "title", "id": "WindowsFormsParkingWindow", "matching_strategy": "Equals"}
     ]
   ],
   "stackbar": {
