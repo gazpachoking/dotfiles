@@ -28,6 +28,7 @@
     {"kind": "class", "id": "TLoginDialog"},
     {"kind": "exe", "id": "RoyalTS_PuTTY.exe"},
     {"kind": "exe", "id": "RoyalTS_PuTTY64.exe"},
+    {"kind": "exe", "id": "barrier.exe"},
     {"kind": "exe", "id": "PhoneExperienceHost.exe"},
     {"kind": "class", "id": "VISIOS"},
     [
