@@ -27,7 +27,6 @@ set quickscope
 
 " Normal paste
 inoremap <c-v> <c-r>*
-nnoremap <c-v> p
 
 " Modes
 nmap <leader>vd <action>(ToggleDistractionFreeMode)
