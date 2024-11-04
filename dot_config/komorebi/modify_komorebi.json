@@ -1,7 +1,7 @@
 {{- /* chezmoi:modify-template */ -}}
 {
   "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/master/schema.json",
-  "app_specific_configuration_path": "$Env:KOMOREBI_CONFIG_HOME/applications.yaml",
+  "app_specific_configuration_path": "$Env:KOMOREBI_CONFIG_HOME/applications.json",
   "window_hiding_behaviour": "Cloak",
   "cross_monitor_move_behaviour": "Insert",
   "default_workspace_padding": 3,
@@ -19,7 +19,7 @@
   "{{ . }}": {{ get (fromJson $.chezmoi.stdin) . | toPrettyJson | indent 2 | trim }},
   {{ end -}}
   {{ end -}}
-  "float_rules": [
+  "ignore_rules": [
     {"kind": "exe", "id": "ShareX.exe"},
     {"kind": "exe", "id": "TeraCopy.exe"},
     {"kind": "title", "id": "Remove Torrent", "matching_strategy": "Equals"},
