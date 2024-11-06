@@ -48,7 +48,7 @@
   ],
   "object_name_change_applications": [
     [
-      {"kind": "exe", "id": "RemoteDesktopManager"},
+      {"kind": "exe", "id": "RemoteDesktopManager.exe"},
       {"kind": "title", "id": "Remote Desktop Manager", "matching_strategy": "StartsWith"}
     ]
   ],
