@@ -44,6 +44,7 @@
       {"kind": "exe", "id": "RemoteDesktopManager.exe"},
       {"kind": "title", "id": "Remote Desktop Manager", "matching_strategy": "DoesNotStartWith"}
     ],
+    {"kind": "class", "id": "WindowsForms10.Window.20008.app.0.5c39d4_r3_ad1"},
     {"kind": "exe", "id": "input-leap.exe"}
   ],
   "object_name_change_applications": [
