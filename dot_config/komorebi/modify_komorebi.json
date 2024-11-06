@@ -47,10 +47,7 @@
     {"kind": "exe", "id": "input-leap.exe"}
   ],
   "object_name_change_applications": [
-    [
-      {"kind": "exe", "id": "RemoteDesktopManager.exe"},
-      {"kind": "title", "id": "Remote Desktop Manager", "matching_strategy": "StartsWith"}
-    ]
+      {"kind": "exe", "id": "RemoteDesktopManager.exe"}
   ],
   "stackbar": {
     "height": 40,
