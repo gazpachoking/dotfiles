@@ -48,7 +48,11 @@
       {"kind": "exe", "id": "RemoteDesktopManager.exe"},
       {"kind": "class", "id": "WindowsForms10.Window.8.app.0.5c39d4_r3_ad1", "matching_strategy": "DoesNotEqual"}
     ],
-    {"kind": "exe", "id": "input-leap.exe"}
+    {"kind": "exe", "id": "input-leap.exe"},
+    [
+      {"kind": "exe", "id": "ms-teams.exe"},
+      {"kind": "title", "id": "compact view", "matching_strategy": "Contains"}
+    ]
   ],
   "object_name_change_applications": [
       {"kind": "exe", "id": "RemoteDesktopManager.exe"}
