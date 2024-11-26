@@ -64,7 +64,8 @@
     ]
   ],
   "object_name_change_applications": [
-      {"kind": "exe", "id": "RemoteDesktopManager.exe"}
+      {"kind": "exe", "id": "RemoteDesktopManager.exe"},
+      {"kind": "exe", "id": "msedge.exe"}
   ],
   "stackbar": {
     "height": 40,
