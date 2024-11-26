@@ -192,6 +192,22 @@
       }
     ]
   },
+  "Balabolka": {
+    "ignore": [
+      [
+        {
+          "kind": "Exe",
+          "id": "balabolka.exe",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Class",
+          "id": "TBalabolkaForm",
+          "matching_strategy": "DoesNotEqual"
+        }
+      ]
+    ]
+  },
   "Beeper": {
     "tray_and_multi_window": [
       {
@@ -767,6 +783,15 @@
       {
         "kind": "Exe",
         "id": "Kotatogram.exe",
+        "matching_strategy": "Equals"
+      }
+    ]
+  },
+  "Line": {
+    "floating": [
+      {
+        "kind": "Exe",
+        "id": "LineMediaPlayer.exe",
         "matching_strategy": "Equals"
       }
     ]
@@ -1753,6 +1778,20 @@
         "id": "UnrealEditor.exe",
         "matching_strategy": "Equals"
       }
+    ],
+    "floating": [
+      [
+        {
+          "kind": "Exe",
+          "id": "UnrealEditor.exe",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Title",
+          "id": "- Unreal Editor",
+          "matching_strategy": "DoesNotEndWith"
+        }
+      ]
     ]
   },
   "VLC": {
@@ -1937,6 +1976,18 @@
         "id": "VsDebugConsole.exe",
         "matching_strategy": "Equals"
       },
+      [
+        {
+          "kind": "Exe",
+          "id": "iisexpresstray.exe",
+          "matching_strategy": "Equals"
+        },
+        {
+          "kind": "Class",
+          "id": "WindowsForms10.Window",
+          "matching_strategy": "StartsWith"
+        }
+      ],
       {
         "kind": "Title",
         "id": "WindowsFormsParkingWindow",
@@ -1954,18 +2005,11 @@
           "matching_strategy": "Equals"
         }
       ],
-      [
-        {
-          "kind": "Title",
-          "id": "Microsoft Visual Studio",
-          "matching_strategy": "Equals"
-        },
-        {
-          "kind": "Exe",
-          "id": "ServiceHub.ThreadedWaitDialog.exe",
-          "matching_strategy": "Equals"
-        }
-      ]
+      {
+        "kind": "Exe",
+        "id": "ServiceHub.ThreadedWaitDialog.exe",
+        "matching_strategy": "Equals"
+      }
     ]
   },
   "Voice.ai": {
