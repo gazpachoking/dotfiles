@@ -33,7 +33,7 @@ Komorebic(cmd) {
 ; Resize
 !/::Komorebic("resize-axis horizontal increase")
 !-::Komorebic("resize-axis horizontal decrease")
-!+/::Komorebic("resize-axis vertical increase")
+!\::Komorebic("resize-axis vertical increase")
 !+-::Komorebic("resize-axis vertical decrease")
 !WheelDown::
 {
