@@ -69,7 +69,7 @@
   ],
   "tray_and_multi_window_applications": {
     {"kind": "exe", "id": "msedge.exe"}
-  }
+  },
   "stackbar": {
     "height": 40,
     "mode": "OnStack",
