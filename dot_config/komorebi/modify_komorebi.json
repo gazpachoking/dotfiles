@@ -1,5 +1,3 @@
-{{- /* chezmoi:modify-template */ -}}
-{
   "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/master/schema.json",
   "app_specific_configuration_path": "$Env:KOMOREBI_CONFIG_HOME/applications.json",
   "window_hiding_behaviour": "Cloak",
@@ -59,7 +57,7 @@
       {"kind": "title", "id": "compact view", "matching_strategy": "Contains"}
     ],
     [
-      {"kind": "exe", "id": "edge.exe"},
+      {"kind": "exe", "id": "msedge.exe"},
       {"kind": "title", "id": "Bitwarden"}
     ]
   ],
