@@ -57,6 +57,10 @@
     [
       {"kind": "exe", "id": "ms-teams.exe"},
       {"kind": "title", "id": "compact view", "matching_strategy": "Contains"}
+    ],
+    [
+      {"kind": "exe", "id": "edge.exe"},
+      {"kind": "title", "id": "Bitwarden"}
     ]
   ],
   "object_name_change_applications": [
