@@ -67,7 +67,7 @@
       {"kind": "exe", "id": "RemoteDesktopManager.exe"},
       {"kind": "exe", "id": "msedge.exe"}
   ],
-  "tray_and_multi_window": {
+  "tray_and_multi_window_applications": {
     {"kind": "exe", "id": "msedge.exe"}
   }
   "stackbar": {
