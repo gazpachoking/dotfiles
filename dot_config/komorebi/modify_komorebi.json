@@ -60,11 +60,12 @@
     ],
     [
       {"kind": "exe", "id": "msedge.exe"},
-      {"kind": "title", "id": "_crx__", "matching_strategy": "StartsWith"}
+      {"kind": "title", "id": "____crx__", "matching_strategy": "StartsWith"}
     ]
   ],
   "object_name_change_applications": [
-      {"kind": "exe", "id": "RemoteDesktopManager.exe"}
+      {"kind": "exe", "id": "RemoteDesktopManager.exe"},
+      {"kind": "exe", "id": "msedge.exe"}
   ],
   "tray_and_multi_window_applications": [
     {"kind": "exe", "id": "msedge.exe"}
