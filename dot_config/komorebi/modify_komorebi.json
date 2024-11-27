@@ -60,7 +60,7 @@
     ],
     [
       {"kind": "exe", "id": "msedge.exe"},
-      {"kind": "title", "id": "Bitwarden"}
+      {"kind": "title", "id": "__crx__", "matching_strategy": "StartsWith"}
     ]
   ],
   "object_name_change_applications": [
