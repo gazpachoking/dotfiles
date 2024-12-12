@@ -21,6 +21,7 @@
   {{ end -}}
   {{ end -}}
   "ignore_rules": [
+    {"kind": "exe", "id": "FactoryGameSteam-Win64-Shipping.exe"},
     {"kind": "exe", "id": "ShareX.exe"},
     {"kind": "exe", "id": "TeraCopy.exe"},
     {"kind": "title", "id": "Remove Torrent", "matching_strategy": "Equals"},
