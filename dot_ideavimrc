@@ -61,6 +61,8 @@ imap <c-t> <Action>(ActivateTerminalToolWindow)
 " Actions
 map <leader>ca <action>(ShowIntentionActions)
 map <leader>se <action>(SearchEverywhere)
+" map <c-p> <action>(ParameterInfo)
+" map <c-q> <action>(QuickJavaDoc)
 
 " Refactoring
 map <leader>rn <Action>(RenameElement)
