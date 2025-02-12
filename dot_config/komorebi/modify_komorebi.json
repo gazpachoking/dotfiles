@@ -21,6 +21,7 @@
   {{ end -}}
   {{ end -}}
   "ignore_rules": [
+    {"kind": "exe", "id": "THPS12.exe"},
     {"kind": "exe", "id": "FactoryGameSteam-Win64-Shipping.exe"},
     {"kind": "exe", "id": "ShareX.exe"},
     {"kind": "exe", "id": "TeraCopy.exe"},
